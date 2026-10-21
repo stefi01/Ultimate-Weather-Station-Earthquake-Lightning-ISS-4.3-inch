@@ -1,0 +1,29 @@
+Arduino IDE settings for the Freenove FNK0115B, 4.3 inch, 480x272.
+These are the Tools rows named for this glass.
+
+Arduino IDE 1.8.18
+ESP32 board package 3.3.12
+
+Board: ESP32S3 Dev Module
+PSRAM: OPI PSRAM
+Flash Size: 16MB (128Mb)
+USB CDC On Boot: Enabled
+Partition Scheme: 16M Flash (3MB APP/9.9MB FATFS)
+Port: the CH340 COM port
+
+Leave PSRAM on OPI. This screen does not start without it.
+
+Libraries:
+GFX Library for Arduino 1.6.8
+TJpg_Decoder 1.1.0
+ArduinoJson 7.4.2 by Benoit Blanchon. Not Arduino_JSON.
+
+Wi-Fi, HTTP, Update, Preferences, LittleFS, FFat, SPI, and Wire come with the ESP32 board package.
+
+Sketch folder:
+4.3 inch\ultimate_weather\ultimate_weather.ino
+
+Updates:
+https://github.com/stefi01/Ultimate-Weather-Station-Earthquake-Lightning-ISS-4.3-inch
+CHECK reads ota/version.txt
+INSTALL reads ota/sky_43.bin
